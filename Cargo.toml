@@ -25,5 +25,14 @@ repository ="https://github.com/paradigmxyz/mev-share-rs"
 ethers-core = { version = "2.0", default-features = false }
 ethers-signers = "2.0.7"
 
+## net
+http = "0.2.9"
+tower = "0.4"
+hyper = "0.14"
+
+## async
+futures-util = "0.3"
+
 ## misc
 serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }

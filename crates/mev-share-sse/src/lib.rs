@@ -10,5 +10,7 @@
 pub mod client;
 pub use client::EventClient;
 
+pub mod server;
+
 mod types;
 pub use types::*;
